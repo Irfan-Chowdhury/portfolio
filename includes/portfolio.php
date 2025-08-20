@@ -116,6 +116,27 @@
                 </figure>
               </article>
             </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-laravel">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/peopleprosaas.png" class="img-fluid" alt="" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Web Project</div>
+                      <h3 class="entry-title">SaaS App</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/peopleprosaas.png" class="glightbox" data-gallery="portfolio-gallery-ui" data-glightbox="title: SaaS App;">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://codecanyon.net/item/peoplepro-saas-hrm-payroll-project-management/48966937?srsltid=AfmBOorxMqT3ytd_vs3sskwkJcTsQ_5puF7EkR3J2ZYreA_3slge5KPz" target="_blank">
+                          <i class="bi bi-link-45deg"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
             <!-- End Laravel Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-react">
@@ -319,7 +340,8 @@
                           data-glightbox="title: PeoplePro; description: HRM, Payroll & Project Management system on CodeCanyon.">
                           <i class="bi bi-arrows-angle-expand"></i>
                         </a>
-                        <a href="https://codecanyon.net/item/peoplepro-hrm-payroll-project-management/29169229?s_rank=4" target="_blank">
+                        <!-- <a href="https://codecanyon.net/item/peoplepro-hrm-payroll-project-management/29169229?s_rank=4" target="_blank"> -->
+                        <a href="http://peopleprohrm.com/demo/" target="_blank">
                           <i class="bi bi-link-45deg"></i>
                         </a>
                       </div>
