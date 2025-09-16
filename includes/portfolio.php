@@ -78,6 +78,27 @@
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-laravel">
               <article class="portfolio-entry">
                 <figure class="entry-image">
+                  <img src="assets/img/projects/curtains.irfandev.xyz.half.jpeg" class="img-fluid" alt="" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Web Project</div>
+                      <h3 class="entry-title">Curtains</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/projects/curtains.irfandev.xyz.full.jpeg" class="glightbox" data-gallery="portfolio-gallery-ui">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://curtains.irfandev.xyz/" target="_blank">
+                          <i class="bi bi-link-45deg"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-laravel">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
                   <img src="assets/img/projects/stock-management-banner.png" class="img-fluid" alt="" loading="lazy">
                   <div class="entry-overlay">
                     <div class="overlay-content">
