@@ -30,6 +30,7 @@
 
           <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
 
+          <!-- Start Laravel Item -->
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-laravel">
               <article class="portfolio-entry">
                 <figure class="entry-image">
@@ -137,8 +138,29 @@
                 </figure>
               </article>
             </div>
-            <!-- End Laravel Item -->
 
+            <!-- Start React Item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-react">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/projects/digital-wallet-iota.vercel.app.jpeg" class="img-fluid" alt="" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">React</div>
+                      <h3 class="entry-title">Digital Wallet</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/projects/digital-wallet-iota.vercel.app.jpeg" class="glightbox" data-gallery="portfolio-gallery-development" data-glightbox="title: Digital Wallet; description: Developed a secure, role-based, and user-friendly frontend application for a Digital Wallet System (similar to bKash or Nagad) using React.js, Redux Toolkit, and RTK Query. This app will consume a backend API (provided separately or mocked) to enable Users, Agents, and Admins to perform financial operations and manage wallets seamlessly.">
+                          <i class="bi bi-arrows-angle-expand"></i>
+                        </a>
+                        <a href="https://digital-wallet-iota.vercel.app/" target="_blank">
+                          <i class="bi bi-link-45deg"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-react">
               <article class="portfolio-entry">
                 <figure class="entry-image">
@@ -223,8 +245,8 @@
                 </figure>
               </article>
             </div>
-            <!-- End React Item -->
 
+            <!-- Start Bootstrap Item -->
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-bootstrap">
               <article class="portfolio-entry">
                 <figure class="entry-image">
@@ -320,7 +342,6 @@
               </article>
             </div>
 
-            <!-- End Bootstrap Item -->
 
             
             <!-- End Portfolio Item -->
