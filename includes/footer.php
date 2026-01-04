@@ -1,5 +1,13 @@
   <footer id="footer" class="footer dark-background">
 
+    <!-- Floating WhatsApp Button with QR Code -->
+  <div class="qr-wrapper" style="position: fixed; bottom: 40px; right: 40px;">
+      <a href="https://wa.me/+8801979498634?text=Hello, hi can I help you?" class="whatsapp-float pulse" target="_blank" aria-label="Chat on WhatsApp">
+          <!-- <i class="fab fa-whatsapp whatsapp-icon"></i> -->
+          <i class="bi bi-whatsapp whatsapp-icon"></i>
+      </a>
+  </div>
+
     <div class="container">
       <div class="copyright text-center ">
         <!-- <p>© <span>Copyright</span> <strong class="px-1 sitename">Style</strong> <span>All Rights Reserved</span></p> -->

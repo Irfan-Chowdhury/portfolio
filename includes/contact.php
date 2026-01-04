@@ -31,7 +31,7 @@
                 </div>
                 <div class="content">
                   <h4>Phone Number</h4>
-                  <p>+8801979498634</p>
+                  <a href="tel:+8801979498634">+8801979498634</a>
                 </div>
               </div>
 
@@ -41,7 +41,19 @@
                 </div>
                 <div class="content">
                   <h4>Email Address</h4>
-                  <p>irfanchowdhury80@gmail.com</p>
+                  <!-- <p>irfanchowdhury80@gmail.com</p> -->
+                  <a href="mailto:irfanchowdhury80@gmail.com">irfanchowdhury80@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Whats App</h4>
+                  <!-- <p>irfanchowdhury80@gmail.com</p> -->
+                  <a href="https://wa.me/8801979498634" target="_blank">WhatsApp</a>
                 </div>
               </div>
             </div>

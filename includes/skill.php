@@ -1,7 +1,15 @@
     <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Skill</h2>
+        <!-- <p>Explore my professional journey, showcasing my skills in frontend and backend development, cloud technologies, and real-world projects that demonstrate my expertise and creativity.</p> -->
+      </div>
+      <!-- End Section Title -->
+
+
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row">
-
 
           <div class="col-lg-8">
             <div class="skills-grid">

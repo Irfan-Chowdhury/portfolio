@@ -36,6 +36,121 @@
   ======================================================== -->
 
   <style>
+
+  /* Navbar */
+/* Desktop top bar */
+.topbar-nav{
+  gap: 18px;
+  padding: 10px 18px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+/* Brand */
+.topbar-brand{
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--heading-color, #0b1220);
+  white-space: nowrap;
+}
+
+/* Center menu */
+.topbar-menu{
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  margin-left: auto;
+  margin-right: auto;   /* ✅ this centers the menu */
+  align-items: center;
+}
+
+.topbar-menu .nav-link{
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: var(--default-color, #111);
+  transition: 0.2s;
+}
+
+.topbar-menu .nav-link:hover{
+  background: rgba(0,0,0,0.05);
+  color: var(--accent-color, #0d6efd);
+}
+
+/* Right side */
+.topbar-right{
+  gap: 12px;
+  white-space: nowrap;
+}
+
+.topbar-right .social-links a{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.04);
+  transition: 0.2s;
+}
+
+.topbar-right .social-links a:hover{
+  background: rgba(0,0,0,0.08);
+}
+
+.topbar-avatar{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(0,0,0,0.08);
+}
+  /* Navbar */
+
+
+  /* WhatsApp floating button styles */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 100px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    background-color: #128C7E;
+    transform: scale(1.1);
+    text-decoration: none;
+    color: white;
+}
+
+.whatsapp-float .whatsapp-icon {
+    margin-left: 1px;
+    margin-bottom: 1px;
+}
+
+.whatsapp-icon{
+  font-size: 22px;
+  color: #fff;
+  line-height: 1;
+}
+
+  /* Skills Grid */
+
   .skill-icon {
     width: 50px;
     height: 50px;
@@ -55,8 +170,8 @@
   }
 </style>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.17.0/devicon.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.17.0/devicon.min.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
 
 
 </head>
@@ -64,7 +179,7 @@
 <body class="index-page">
 
   <?php  
-    require_once 'includes/header.php';
+    require_once 'includes/navbar.php';
   ?>
 
   <main class="main">
@@ -105,11 +220,11 @@
     <!-- /Services Section -->
 
 
-    <!-- Portfolio Section -->
+    <!-- project Section -->
     <?php  
-        require_once 'includes/portfolio.php';
+        require_once 'includes/project.php';
     ?>
-    <!-- /Portfolio Section -->
+    <!-- /project Section -->
      
 
     <!-- Testimonials Section -->

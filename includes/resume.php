@@ -2,8 +2,13 @@
 
       <!-- Section Title -->
       <div class="container section-title">
-        <h2>Resume</h2>
+        <h2 class="mt-3">Resume</h2>
         <p>Explore my professional journey, showcasing my skills in frontend and backend development, cloud technologies, and real-world projects that demonstrate my expertise and creativity.</p>
+
+        <div class="mt-3 action-buttons">
+          <a href="assets/docs/resume.pdf" target="_blank" class="btn btn-outline-primary">View Resume</a>
+          <a href="assets/docs/resume.pdf" download class="btn btn-outline-primary">Download Resume</a>
+        </div>
       </div>
       <!-- End Section Title -->
 

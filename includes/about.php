@@ -26,8 +26,31 @@
           <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
             <div class="about-content">
               <div class="intro">
-                <h2>Hi, I'm Irfan — a Full-Stack Developer</h2>
-                <p>I design and develop robust backends, seamless APIs, and intuitive frontends that work beautifully together. With a passion for scalability and clean code, I transform complex challenges into high-performance, user-friendly solutions.</p>
+                <h2>Hi, I'm Irfan — a Software Developer (Full Stack)</h2>
+
+                <p>
+                  I design and develop robust backends, seamless APIs, and intuitive frontends that work beautifully together.
+                  With a passion for scalability and clean code, I transform complex challenges into high-performance,
+                  user-friendly solutions.
+                </p>
+
+                <p>
+                  My programming journey started with curiosity—building small websites and learning how the web really works.
+                  Over time, I moved deeper into full-stack development, where I enjoy connecting the “frontend experience”
+                  with solid backend logic, secure authentication, and well-structured databases.
+                </p>
+
+                <p>
+                  The work I enjoy most is solving real problems: designing REST APIs, optimizing database queries,
+                  building reusable components, and making applications faster, cleaner, and easier to maintain.
+                  I like writing readable code, following best practices, and improving systems step by step.
+                </p>
+
+                <p>
+                  Outside of programming, I enjoy learning new technologies, exploring UI/UX ideas, watching tech content,
+                  and spending time on personal growth. I’m also someone who likes teamwork, clear communication
+                  and building things that people actually enjoy using.
+                </p>
               </div>
 
 
@@ -79,7 +102,8 @@
                 </div>
                 <div class="action-buttons">
                   <a href="#portfolio" class="btn btn-primary">View My Work</a>
-                  <a href="https://drive.google.com/file/d/1Cw3cBX96vL37Xqpr33gdm4gNYTqkZ04K/view?usp=drive_link" target="_blank" class="btn btn-outline">Download Resume</a>
+                  <a href="assets/docs/resume.pdf" target="_blank" class="btn btn-outline">View Resume</a>
+                  <a href="assets/docs/resume.pdf" download class="btn btn-outline">Download Resume</a>
                 </div>
               </div>
 
